@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "588837200267",
+    "firebase_url": "https://hackathontodolist.firebaseio.com",
+    "project_id": "hackathontodolist",
+    "storage_bucket": "hackathontodolist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588837200267:android:46fce62ebcb17083",
+        "android_client_info": {
+          "package_name": "com.example.android.hackathontodolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588837200267-bi39c03d26nk6t54sm2s7ff5trm3os74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.hackathontodolist",
+            "certificate_hash": "e9496fe33d95821e9b966a0bade6403ac591fd86"
+          }
+        },
+        {
+          "client_id": "588837200267-d3f91gce47o2l4svannng3ttjh28is2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnVIGcEGo7Qm0TgrNXZWwqDnk1eeAL1as"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588837200267-d3f91gce47o2l4svannng3ttjh28is2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
