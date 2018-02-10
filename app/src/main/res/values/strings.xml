@@ -1,16 +1,31 @@
 <resources>
     <string name="app_name">HackathonToDoList</string>
-
+    <string name="title_activity_add_item">Add Item</string>
+    <string name="title_txt">Title</string>
+    <string name="description_txt">Description</string>
+    <string name="place_txt">Place</string>
+    <string name="high">High</string>
+    <string name="time">Time</string>
+    <string name="add_Item_btn">Add Item</string>
+    <string name="saved_msg">saved</string>
+    <string name="error_msg">Error</string>
+    <string name="field_req">Field Required</string>
     <string name="main_activity_name">All Tasks</string>
     <string name="add_task_activity_name">Add a New Task</string>
 
     <string name="priority_1">1</string>
     <string name="priority_2">2</string>
     <string name="priority_3">3</string>
-
+    <string name="btn_forgot_password">forget password</string>
+    <string name="action_sign_in_short">sign in</string>
     <string name="high_priority">High</string>
     <string name="med_priority">Medium</string>
     <string name="low_priority">Low</string>
 
     <string name="add_button">Add</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="email">email</string>
+    <string name="hint_password">password</string>
+    <string name="btn_link_to_login">login</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
 </resources>

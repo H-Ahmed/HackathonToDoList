@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.list_item.view.*
+import java.text.SimpleDateFormat
 
 /**
  * Created by Hesham on 2/10/2018.
@@ -17,7 +18,11 @@ class ListAdaptor(private val context:Context): RecyclerView.Adapter<ListAdaptor
     override fun getItemCount(): Int {
         return tasks.size
     }
+    fun addData(list :List<ToDoListItem>){
+        this.tasks=list;
+        notifyDataSetChanged();
 
+    }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         return ListViewHolder(LayoutInflater.from(context).inflate(R.layout.list_item, parent, false))
     }
@@ -27,8 +32,7 @@ class ListAdaptor(private val context:Context): RecyclerView.Adapter<ListAdaptor
         holder.priorityTextView.text = task.priority.toString()
         holder.tasktitle.text = task.name
         holder.taskDescription.text = task.description
-        holder.dateTextView.text = task.date
-        holder.timeTextView.text = task.time.toString()
+        holder.dateTextView.text = SimpleDateFormat("HH:MM").format(task.date);
 
 
     }
