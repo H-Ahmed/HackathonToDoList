@@ -6,7 +6,7 @@ import java.util.*
 /**
  * Created by ahmed on 10/02/2018.
  */
-class ToDoListItem : RealmObject(){
+class ToDoListItem {
 
     var name:String = "";
     var priority:Int =-1;
