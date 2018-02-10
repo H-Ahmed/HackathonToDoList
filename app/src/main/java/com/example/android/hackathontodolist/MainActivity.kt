@@ -12,9 +12,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         recycler.layoutManager = LinearLayoutManager(this)
-        recycler.addItemDecoration(SpaceItemDecoration(this, R.dimen.margin_small))
-        recycler.adapter = NotesAdapter(this)
+        recycler.adapter = ListAdaptor(this)
 
+    }
 
+    override fun onResume() {
+        super.onResume()
+        (recycler.adapter as ListAdaptor)
+    }
+
+    public override fun onDestroy() {
+        super.onDestroy()
     }
 }

@@ -1,6 +1,5 @@
 package com.example.android.hackathontodolist
 
-import io.realm.RealmObject
 import java.util.*
 
 /**
